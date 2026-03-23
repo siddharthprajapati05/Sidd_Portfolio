@@ -9,7 +9,7 @@ import { AnimatedSection } from "~/components/ui/AnimatedSection";
 import { SectionHeading } from "~/components/ui/SectionHeading";
 
 const stats = [
-  { value: "450+", label: "DSA Problems" },
+  { value: "400+", label: "DSA Problems" },
   { value: "5+", label: "Projects Delivered" },
   { value: "10+", label: "Certificates" },
 ];
