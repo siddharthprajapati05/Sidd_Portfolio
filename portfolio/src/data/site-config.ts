@@ -1,10 +1,10 @@
 import { SiteConfig } from "~/types/data";
 
 export const siteConfig: SiteConfig = {
-  title: "Aditya Kumar — Full Stack Developer",
+  title: "Siddharth Prajapati — Machine Learning Engineer",
   description:
-    "Full Stack Developer specializing in React, Next.js, and Node.js. Building exceptional digital experiences with modern web technologies.",
+    "Machine Learning Engineer specializing in AI, Deep Learning, and MLOps. Building intelligent systems with modern AI technologies.",
   url: "https://www.devaditya.me",
   ogImage: "/og-image.png",
-  author: "Aditya Kumar",
+  author: "Siddharth Prajapati",
 };
