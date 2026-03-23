@@ -13,6 +13,7 @@ const stats = [
   { value: "5+", label: "Projects Delivered" },
   { value: "10+", label: "Certificates" },
 ];
+// 
 
 interface AboutProps {
   profileImages?: string[];
