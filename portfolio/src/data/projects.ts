@@ -2,55 +2,75 @@ import { Project } from "~/types/data";
 
 export const projects: Project[] = [
   {
-    id: "ims",
-    title: "Inventory Management System",
-    description:
-      "A multi-tenant inventory management system designed for small businesses to track stock in real-time. Features movement-based inventory tracking, secure authentication, and efficient product management with barcode support.",
-    techStack: ["Node.js", "Express.js", "PostgreSQL", "SQL", "REST APIs", "React.js", "Tailwind CSS"],
-    image: "/projects/ims.jpg",
-    featured: true,
-    githubUrl: "https://github.com/Realadityakumar/IMS_Backend",
-    liveUrl: "https://ims.devaditya.me/",
-    highlights: [
-      {
-        icon: "Database",
-        label: "Movement-Based Inventory",
-        detail: "Tracks stock using stock_movements for accurate and scalable inventory management",
-      },
-      {
-        icon: "Users",
-        label: "Multi-Tenant Architecture",
-        detail: "Each account represents a separate store with isolated data and admin control",
-      },
-      {
-        icon: "Package",
-        label: "Product Management",
-        detail: "Supports manual and barcode-based product entry with structured data handling",
-      },
-      {
-        icon: "ShieldCheck",
-        label: "Secure Backend",
-        detail: "JWT-based authentication with role-based access for admin operations",
-      },
+    id: "FRAMS",
+    title: "Face Recognition Attendance Management System",
+description:
+  "An AI-powered attendance system that automates student attendance using real-time face recognition. It captures facial data, trains a model, and marks attendance efficiently with both automatic and manual entry options, integrated with database and CSV export features.",
+techStack: ["Python", "OpenCV", "Tkinter", "NumPy", "Pandas", "MySQL", "Computer Vision"],
+image: "/projects/face-attendance.jpg",
+featured: true,
+githubUrl: "https://github.com/siddharthprajapati05/Face_Attendence.git",
+// liveUrl: "",
+highlights: [
+  {
+    icon: "Camera",
+    label: "Real-Time Face Recognition",
+    detail: "Uses OpenCV and LBPH algorithm to detect and recognize faces for automatic attendance marking",
+  },
+  {
+    icon: "Database",
+    label: "Dual Storage System",
+    detail: "Stores attendance data in both MySQL database and CSV files for flexibility and backup",
+  },
+  {
+    icon: "Waypoints",
+    label: "Model Training Pipeline",
+    detail: "Captures facial images and trains a machine learning model for accurate identification",
+  },
+  {
+    icon: "SquarePen",
+    label: "Manual Attendance Module",
+    detail: "Provides GUI-based manual attendance entry with dynamic table creation and CSV export",
+  },
+  {
+    icon: "ShieldCheck",
+    label: "Admin Panel",
+    detail: "Secure login system to view registered student data and manage attendance records",
+    }
     ],
   },
   {
-  id: "techwhisper",
-  title: "TechWhisper",
+  id: "AI News Research Tool",
+  title: "AI News Research Tool",
   description:
-    "TechWhisper is a developer-focused platform built to simplify complex technical concepts into clear, structured explanations. It provides an intuitive interface where users can explore topics, understand core ideas, and learn faster without unnecessary clutter. Designed with a modern frontend architecture, the platform ensures fast performance, scalability, and a smooth user experience.",
-  techStack: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
-  githubUrl: "https://github.com/Realadityakumar/techwhisper",
+    "An AI-powered news research assistant that allows users to extract insights from multiple online articles using Retrieval-Augmented Generation (RAG). It processes URLs, creates vector embeddings, and enables users to ask questions with accurate, context-based answers powered by Google Gemini. Designed for fast, intelligent information retrieval with source transparency.",
+  techStack: [
+  "Python",
+  "Streamlit",
+  "LangChain",
+  "Google Gemini API",
+  "FAISS",
+  "HuggingFace Embeddings",
+  "RAG (Retrieval-Augmented Generation)"
+],
+  githubUrl: "https://github.com/siddharthprajapati05/url_scrapper.git",
   liveUrl: "",
-  image: "/projects/techwhisper.jpg",
+  image: "/projects/rockybot.jpg",
   featured: true,
 },
   {
-  id: "SecondBrain",
-  title: "Second Brain",
+  id: "AI Virtual Mouse using Hand Gestures",
+  title: "AI Virtual Mouse using Hand Gestures",
   description:
-    "A personal knowledge management platform that allows users to save and organize content from YouTube and X (Twitter) in one place. Users can quickly capture links, and the system automatically generates interactive cards for easy viewing and recall. Designed for fast access, structured thinking, and efficient content consumption, the platform focuses on simplicity, performance, and a clean user experience.",
-  techStack: ["React", "Node.js", "MongoDB", "Express"],
+    "An AI-based virtual mouse system that enables users to control the computer cursor using real-time hand gestures. Built with computer vision and hand tracking, it allows cursor movement, clicking, and scrolling without physical hardware, providing a touchless and intuitive human-computer interaction experience.",
+  techStack: [
+  "Python",
+  "OpenCV",
+  "MediaPipe",
+  "PyAutoGUI",
+  "Computer Vision",
+  "Gesture Recognition"
+],
   liveUrl: "",
   image: "/projects/secondbrain.jpg",
   featured: true,

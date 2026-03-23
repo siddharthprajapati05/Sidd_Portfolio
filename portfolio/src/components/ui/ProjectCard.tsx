@@ -9,6 +9,10 @@ import {
   Zap,
   Users,
   Database,
+ Camera,
+ SquarePen,
+ Waypoints
+
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import type { Project } from "~/types/data";
@@ -21,6 +25,9 @@ const highlightIcons: Record<string, LucideIcon> = {
   Users,
   Database,
   Package,
+  Camera,
+  SquarePen,
+  Waypoints
 };
 
 interface ProjectCardProps {
