@@ -104,3 +104,12 @@ export interface Certificate {
   url: string;
   image?: string;
 }
+
+export interface Achievement {
+  id: string;
+  category: string;
+  title: string;
+  topic: string;
+  description: string;
+  icon: string;
+}

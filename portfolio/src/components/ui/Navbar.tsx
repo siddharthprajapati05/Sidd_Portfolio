@@ -18,8 +18,8 @@ export function Navbar() {
   const activeSection = useActiveSection(sectionIds);
 
   return (
-    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-[850px]">
-      <div className="rounded-2xl bg-zinc-900/90 backdrop-blur-xl border border-zinc-800 px-4 py-3 md:px-6">
+    <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-[960px]">
+      <div className="rounded-2xl bg-zinc-900/90 backdrop-blur-xl border border-zinc-800 px-4 py-3 md:px-5">
         <div className="flex items-center justify-between">
           <Link href={isHome ? "#hero" : "/"} className="text-lg font-extrabold text-white">
             {personalInfo.name.split(" ")[0]}
@@ -27,7 +27,7 @@ export function Navbar() {
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden md:flex items-center gap-0.5">
             {navItems.map((item) => {
               const isActive = isHome
                 ? activeSection === item.href.replace("#", "")

@@ -5,6 +5,7 @@ import { Projects } from "~/components/sections/Projects";
 import { TechStack } from "~/components/sections/TechStack";
 import { Experience } from "~/components/sections/Experience";
 import { Certificates } from "~/components/sections/Certificates";
+import { Achievements } from "~/components/sections/Achievements";
 import { Blog } from "~/components/sections/Blog";
 import { Testimonials } from "~/components/sections/Testimonials";
 import { ResumeCTA } from "~/components/sections/ResumeCTA";
@@ -22,7 +23,7 @@ export default function Home() {
       <TechStack />
       <Experience />
       <Certificates />
-      
+      <Achievements />
       <ResumeCTA />
       <Contact />
     </>
