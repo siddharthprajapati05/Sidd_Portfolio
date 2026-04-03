@@ -16,7 +16,7 @@ export const achievements: Achievement[] = [
     title: "450+ LeetCode Solved",
     topic: "Data Structures & Algorithms",
     description:
-      "Successfully solved over 200 complex algorithmic challenges, drastically strengthening logic building, pattern recognition, and optimization skills.",
+      "Successfully solved over 450 complex algorithmic challenges, drastically strengthening logic building, pattern recognition, and optimization skills.",
     icon: "💻",
   },
 ];
