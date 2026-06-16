@@ -27,3 +27,5 @@ export const personalInfo: PersonalInfo = {
     },
   ],
 };
+
+
