@@ -13,7 +13,7 @@ export const achievements: Achievement[] = [
   {
     id: "achievement-2",
     category: "ALGORITHMIC CONSISTENCY",
-    title: "450+ LeetCode Solved",
+    title: "550+ LeetCode Solved",
     topic: "Data Structures & Algorithms",
     description:
       "Successfully solved over 450 complex algorithmic challenges, drastically strengthening logic building, pattern recognition, and optimization skills.",
